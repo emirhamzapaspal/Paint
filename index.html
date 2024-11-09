@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>PAINT</h1>
+        <canvas id="canvas" width="700" height="700"></canvas><br>
+        <input type="color" id="color">
+        <button id="erase" onclick="erase()">ERASE</button>
+        <button id="draw" onclick="draw()">DRAW</button>
+        <input type="range" id="slider" min="1" max="20" value="1" step="1">
+    </center>
+
+    <script src="main.js"></script>
+</body>
+</html>
